@@ -1,0 +1,483 @@
+body,html{
+    height: 100%;
+    background-color: #191919;
+    margin:0px;
+}
+
+/* intro */
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/image1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+div h2{
+    font-family: Century Gothic;
+    text-align: center;
+    color: rgba(8, 251, 166, 0.557);
+    font-size: 80px;
+    padding-top:20px;
+    margin-bottom: 0;
+    display: flex; 
+    flex-direction: row;
+    
+}
+
+#heading{
+    text-shadow: 1.5px whitesmoke;
+}
+
+h2:before, 
+h2:after { 
+    content: ""; 
+    flex: 0.5 0.5; 
+    border-bottom: 3px solid rgb(255, 255, 255); 
+    margin: 50px; 
+} 
+
+div hr{
+    /* T R B L*/
+    margin: 0 30% 0 30%;
+    
+}
+
+#mySidenav a{
+    position: absolute;
+    left: -105px;
+    padding: 15px;
+    width: 110px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    font-family: Century Gothic;
+
+}
+
+#mySidenav a:hover{
+    left: 0;
+    
+}
+
+#about {
+    top: 200px;
+    background-color: #eff308;
+}
+  
+#skills {
+    top: 260px;
+    background-color: #2196F3;
+    
+}
+  
+#photography {
+    top: 320px;
+    background-color: #f44336;
+    
+}
+  
+#contact {
+    top: 380px;
+    background-color: rgba(250, 124, 6, 0.966)
+}
+
+#connect{
+    top: 440px;
+    background-color: lawngreen;
+}
+.hero-text {
+    
+    position: absolute;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    padding-left: 30px;
+    padding-right: 30px;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: whitesmoke;
+
+}
+
+.hero-text h1{
+    font-size: 100px;
+    text-shadow: 5px 5px teal;
+    text-align: center;
+    font-family: Century Gothic;
+}
+
+.hero-text p{
+    font-size: 45px;
+    font-family: Century Gothic;
+    text-align:center;
+}
+
+hr{
+    margin-bottom: 0%;
+}
+
+/* about */
+
+.hero-image1{
+    background-image: url("images/image10.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -65px;
+}
+
+#abt{
+   font-family: Century Gothic;
+    
+}
+
+.hero-text1{
+    background-color: rgb(0,0,0, 0.5); 
+    background-color: rgba(0,0,0, 0.5); 
+    color: white;
+    position: absolute;
+    top: 152.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+    width:50%;
+    overflow: hidden;
+    max-height: fit-content;
+
+}
+
+
+.hero-text1 main{
+    font-family: Century Gothic;
+    font-size: 35px;   
+}
+
+
+.card{
+   height:100%;
+   width: 100%;
+   overflow:hidden;
+   position: relative;
+   text-shadow: lawngreen;  
+}
+
+
+.card .main-content{
+    height:100%;
+    width: 100%;
+     
+ }
+
+ .card .main-content img{
+    height:100%;
+    width: 100%;
+    image-resolution: 1920*1280;
+ }
+
+
+ .card .main-content .text{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    margin-left: 4.5%;
+    margin-top: 20%;
+    font-size: 40px;
+    color: linen;
+    font-family: Century Gothic;
+}
+
+
+
+
+
+ .card .overlay-content{
+    height:100%;
+    width: 100%;
+    transition-duration: 5s;
+    position: absolute;
+    top: 100%;
+    left:0;
+    z-index: 1;
+    opacity: 0;   
+ }
+
+ .card:hover .overlay-content{
+    top:0%;
+    opacity: 1;
+}
+ 
+ .card .overlay-content img{
+    image-resolution: 1920*1280;
+
+ }
+
+#skls{
+     position: absolute;
+     margin: -5% 0 0 35%;
+
+}
+
+
+.overlay-content div div {
+    position: absolute;
+}
+
+.overlay-content span{
+    font-size: 35px;
+    font-family: Century Gothic;
+    color: rgba(253, 167, 6, 0.857);
+    font-weight: 600;
+    
+}
+
+#one {
+    margin-left: -125%;
+    
+}
+
+#html{
+    margin-left: -135%;
+    margin-top: -8%;
+}
+
+#two {
+    margin-left: 45%;
+    margin-top: -22.5%;
+}
+
+#python{
+    margin-top: -7%;
+    margin-left: 20%;
+}
+
+
+#three{
+    margin-top: -20.5%;
+    margin-left: 200%;
+}
+
+#java{
+    margin-top: -9.2%;
+    margin-left: 163%;
+}
+
+#four{
+    margin-top: 40%;
+    margin-left: -125%;
+}
+
+#C{
+    margin-left: -135%;
+    margin-top: -8%;
+}
+#five {
+    margin-top: -20.5%;
+    margin-left: 37.5%;
+}
+
+#Js{
+    margin-top: -7%;
+    margin-left: 20%
+}
+
+#six{
+    margin-left: 200%;
+    margin-top: -20.5%;
+}
+
+#django{
+    margin-top: -9.2%;
+    margin-left: 163%;
+
+}
+
+#seven{
+    margin-left: -125%;
+    margin-top: 40%;
+}
+
+#AD{
+    margin-left: -135%;
+    margin-top: -8%;
+}
+
+#eight{
+    margin-top: -20.5%;
+    margin-left: 37.5%;
+}
+
+#iot{
+    margin-top: -9%;
+    margin-left: 20%;;
+}
+
+#nine{
+    margin-left: 200%;
+    margin-top: -20.5%;
+}
+
+#net{
+    margin-top: -9.2%;
+    margin-left: 163%;
+}
+
+/* Objectives */
+
+
+.objectives{
+    background-image: url("images/image13.jpg");
+    margin-top: -65px;
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text2 {
+    position: absolute;
+    text-align: center;
+    color: moccasin;
+    font-family: Century Gothic;
+    background: rgba(0, 0, 0, 0.768);
+    font-size: 50px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+/* Get in Touch */
+
+.getintouch{
+    background-image: url("images/image8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -65px;
+    height:100%;
+}
+
+
+input[type=text], input[type=email], textarea {
+  width: 50%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  margin-left: 32%;
+  padding: 20px;
+}
+
+.container label{
+    color: seashell;
+    font-family: Century Gothic;
+}
+
+.hero-text3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Century Gothic;
+
+}
+
+
+/* Footer */
+
+.footer{
+    height: 15%;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 22.5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.Connect{
+    font-family: Century Gothic;
+    text-align: center;
+    color: rgba(8, 251, 166, 0.557);
+    font-size: 45px;
+}
+
+
+
+.icons{
+    margin-top: 1%;
+    text-align: center;
+}
+.hr{
+    margin:2% 20% 0 20%;
+}
